@@ -1,6 +1,17 @@
 from pydub import AudioSegment
 import os
 import shutil
+import subprocess
+import sys
+
+if sys.platform == "win32":
+    _popen_original = subprocess.Popen.__init__
+
+    def _popen_fara_consola(self, *args, **kwargs):
+        kwargs.setdefault("creationflags", subprocess.CREATE_NO_WINDOW)
+        _popen_original(self, *args, **kwargs)
+
+    subprocess.Popen.__init__ = _popen_fara_consola
 
 
 def _gaseste_ffmpeg():
