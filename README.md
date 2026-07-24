@@ -36,6 +36,8 @@ Built with a lot of help from Claude. I steered, tested on my own mixes, and yel
 
 No license attached, do whatever you want with it.
 
+The .exe version doesn't output a .txt/.csv file.
+
 ---
 
 ## Română
@@ -64,8 +66,10 @@ python main.py
 
 **De reținut:**
 
-Fragmentele de 90 secunde țin lucrurile rapide, dar dacă mixul tău are tranziții foarte rapide (sub un minut), poate rata câte o piesă pe ici pe colo. Poți scădea `chunk_seconds` din `analyzer.py` dacă preferi acuratețe în locul vitezei. Și pentru că folosește API-ul neoficial al Shazam, nu te mira dacă se mai poticnește dacă îl bombardezi cu mixuri lungi, una după alta.
+Fragmentele de 90 secunde țin lucrurile rapide, dar dacă mixul tău are tranziții foarte rapide (sub un minut), poate rata câte o piesă pe ici pe colo. Poți scădea `chunk_seconds` din `analyzer.py` dacă preferi acuratețe în locul vitezei. Și pentru că folosește API-ul neoficial al Shazam, nu te mira dacă se mai poticnește dacă îl bombardezi cu mixuri lungi, una după alta. 
 
 Făcut cu mult ajutor de la Claude. Eu am condus treaba, am testat pe mixurile mele, m-am enervat pe el când s-a stricat ceva, dar o bună parte din cod a ieșit din tot du-te-vino-ul ăsta. Am zis să spun direct, nu să mă prefac altfel.
 
 Fără licență, fă ce vrei cu el.
+
+- versiunea .exe nu iti da .txt/.csv
