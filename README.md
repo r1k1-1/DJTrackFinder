@@ -23,16 +23,16 @@ python main.py
 
 **What's in here:**
 
-- `main.py` — the actual app / UI
-- `analyzer.py` — splits the audio into chunks
-- `recognizer.py` — talks to Shazam
-- `exporter.py` — writes the .txt / .csv
+- `main.py`: the actual app / UI
+- `analyzer.py`: splits the audio into chunks
+- `recognizer.py`: talks to Shazam
+- `exporter.py`: writes the .txt / .csv
 
 **Heads up:**
 
 90-second chunks keep things fast, but if your mix has really quick transitions (under a minute), it can miss a track here and there. Drop `chunk_seconds` in `analyzer.py` if you'd rather trade speed for accuracy. Also, since this hits Shazam's unofficial API, don't be shocked if it slows down or throws a hiccup if you hammer it with back-to-back long mixes.
 
-Built with a lot of help from Claude — I steered, tested on my own mixes, and yelled at it when things broke, but a good chunk of the code came out of that back-and-forth. Figured I'd say that upfront instead of pretending otherwise.
+Built with a lot of help from Claude. I steered, tested on my own mixes, and yelled at it when things broke, but a good chunk of the code came out of that back-and-forth. Figured I'd say that upfront instead of pretending otherwise.
 
 No license attached, do whatever you want with it.
 
@@ -40,7 +40,7 @@ No license attached, do whatever you want with it.
 
 ## Română
 
-M-am săturat să caut prin site-uri care recunosc piese din mixuri și toate aveau vreo limită — fie la mărimea fișierului, fie la durată, fie trebuia să plătești după 2 încercări. Așa că mi-am făcut unul. Bagi un mix (orice lungime), îl taie în bucăți, trece fiecare bucată prin Shazam, și-ți dă tracklist-ul. Rulează local pe calculatorul tău, fără limite, fără abonament.
+M-am săturat să caut prin site-uri care recunosc piese din mixuri și toate aveau vreo limită: fie la mărimea fișierului, fie la durată, fie trebuia să plătești după 2 încercări. Așa că mi-am făcut unul. Bagi un mix (orice lungime), îl taie în bucăți, trece fiecare bucată prin Shazam, și-ți dă tracklist-ul. Rulează local pe calculatorul tău, fără limite, fără abonament.
 
 **Ce face mai exact:**
 
@@ -57,15 +57,15 @@ python main.py
 
 **Ce conține:**
 
-- `main.py` — aplicația / interfața
-- `analyzer.py` — taie audio-ul în fragmente
-- `recognizer.py` — vorbește cu Shazam
-- `exporter.py` — scrie .txt / .csv
+- `main.py`: aplicația / interfața
+- `analyzer.py`: taie audio-ul în fragmente
+- `recognizer.py`: vorbește cu Shazam
+- `exporter.py`: scrie .txt / .csv
 
 **De reținut:**
 
 Fragmentele de 90 secunde țin lucrurile rapide, dar dacă mixul tău are tranziții foarte rapide (sub un minut), poate rata câte o piesă pe ici pe colo. Poți scădea `chunk_seconds` din `analyzer.py` dacă preferi acuratețe în locul vitezei. Și pentru că folosește API-ul neoficial al Shazam, nu te mira dacă se mai poticnește dacă îl bombardezi cu mixuri lungi, una după alta.
 
-Făcut cu mult ajutor de la Claude — eu am condus treaba, am testat pe mixurile mele, m-am enervat pe el când s-a stricat ceva, dar o bună parte din cod a ieșit din tot du-te-vino-ul ăsta. Am zis să spun direct, nu să mă prefac altfel.
+Făcut cu mult ajutor de la Claude. Eu am condus treaba, am testat pe mixurile mele, m-am enervat pe el când s-a stricat ceva, dar o bună parte din cod a ieșit din tot du-te-vino-ul ăsta. Am zis să spun direct, nu să mă prefac altfel.
 
 Fără licență, fă ce vrei cu el.
