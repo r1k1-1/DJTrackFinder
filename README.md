@@ -36,7 +36,7 @@ Built with a lot of help from Claude. I steered, tested on my own mixes, and yel
 
 No license attached, do whatever you want with it.
 
-The .exe version doesn't output a .txt/.csv file.
+- The .exe version doesn't output a .txt/.csv file.
 
 ---
 
@@ -72,4 +72,4 @@ Făcut cu mult ajutor de la Claude. Eu am condus treaba, am testat pe mixurile m
 
 Fără licență, fă ce vrei cu el.
 
-- versiunea .exe nu iti da .txt/.csv
+- Versiunea .exe nu iti da .txt/.csv
